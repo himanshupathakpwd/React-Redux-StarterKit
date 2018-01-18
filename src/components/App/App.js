@@ -6,6 +6,7 @@ import PropTypes from 'prop-types'
 import './App.css'
 import Home from '../Home'
 import Login from '../Login'
+import Ashtadhyayi from '../Ashtadhyayi'
 
 import {
   getAppDetails
@@ -24,6 +25,7 @@ class App extends Component {
           <div className="container">
             <Route exact path="/" render={() => <Home appDetails={this.props.app} />} />
             <Route path="/login" component={Login} />
+            <Route path="/ashtadhyayi/:adhyay?/:pada?/:sootra?" component={Ashtadhyayi} />
           </div>
         </Router>
       </div>

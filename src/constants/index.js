@@ -1,2 +1,8 @@
+import PRATYAHAR_SUTRANI_IMPORT from './pratyaharSootrani'
+import ASHTADHYAYI_SOOTRANI_IMPORT from './ashtadhyayiSootrani'
+
+export const PRATYAHAR_SUTRANI = PRATYAHAR_SUTRANI_IMPORT
+export const ASHTADHYAYI_SOOTRANI = ASHTADHYAYI_SOOTRANI_IMPORT
+
 // Actions
 export const GET_APP_DETAILS = 'GET_APP_DETAILS'
